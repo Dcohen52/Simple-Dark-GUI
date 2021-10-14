@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="A7rrra" name="DarkGUI" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="Dekel Cohen" companyCopyright="Dekel Cohen" companyWebsite="https://www.dekelcohenart.com/">
+  <MAINGROUP id="HsX2UH" name="DarkGUI">
+    <GROUP id="{76041D96-D1E3-1213-F816-E7D6D2260224}" name="Assets">
+      <FILE id="BWK2JV" name="background.png" compile="0" resource="1" file="C:/Users/Dekel's Studio/Downloads/background.png"/>
+    </GROUP>
+    <GROUP id="{0FB70AA6-756A-DD4D-350F-363DD675DD8F}" name="Source">
+      <FILE id="HVUWGf" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="RnqKA2" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="LIL2rD" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ZJ9qJ6" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="EC7HYZ" name="StyleSheet.cpp" compile="1" resource="0" file="Source/StyleSheet.cpp"/>
+      <FILE id="SZFP0P" name="StyleSheet.h" compile="0" resource="0" file="Source/StyleSheet.h"/>
+      <FILE id="aZIzzI" name="TopBar.cpp" compile="1" resource="0" file="Source/TopBar.cpp"/>
+      <FILE id="FtnWCl" name="TopBar.h" compile="0" resource="0" file="Source/TopBar.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PluginTryout2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PluginTryout2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE API/juce-6.1.2-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
