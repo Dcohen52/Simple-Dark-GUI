@@ -18,29 +18,29 @@ DarkGUIAudioProcessorEditor::DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor&
 
     backgroundImage = juce::ImageCache::getFromMemory(BinaryData::background_png, BinaryData::background_pngSize);
 
-    fatness.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    fatness.setRange(0.0f, 100.0f);
-    fatness.setValue(10.0f);
-    fatness.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
-    addAndMakeVisible(fatness);
+    dial1.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
+    dial1.setRange(0.0f, 100.0f);
+    dial1.setValue(10.0f);
+    dial1.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
+    addAndMakeVisible(dial1);
 
-    glitter.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    glitter.setRange(0.0f, 100.0f);
-    glitter.setValue(25.0f);
-    glitter.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
-    addAndMakeVisible(glitter);
+    dial2.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
+    dial2.setRange(0.0f, 100.0f);
+    dial2.setValue(25.0f);
+    dial2.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
+    addAndMakeVisible(dial2);
 
-    medbell.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    medbell.setRange(0.0f, 100.0f);
-    medbell.setValue(50.0f);
-    medbell.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
-    addAndMakeVisible(medbell);
+    dial3.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
+    dial3.setRange(0.0f, 100.0f);
+    dial3.setValue(50.0f);
+    dial3.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
+    addAndMakeVisible(dial3);
 
-    cutoff.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    cutoff.setRange(0.0f, 100.0f);
-    cutoff.setValue(80.0f);
-    cutoff.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
-    addAndMakeVisible(cutoff);
+    dial4.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
+    dial4.setRange(0.0f, 100.0f);
+    dial4.setValue(80.0f);
+    dial4.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
+    addAndMakeVisible(dial4);
     addAndMakeVisible(topBar);
     setSize (800, 300);
 
@@ -72,8 +72,8 @@ void DarkGUIAudioProcessorEditor::resized()
 {
     int size = 80;
     topBar.setBounds(getWidth() - 800, getHeight() - 300, getWidth(), 30);
-    fatness.setBounds(getWidth() - 750, getHeight() - 250, size, size);
-    glitter.setBounds(getWidth() -750, getHeight() - 120, size, size);
-    medbell.setBounds(getWidth() - 130, getHeight() - 250, size, size);
-    cutoff.setBounds(getWidth() - 130, getHeight() - 120, size, size);
+    dial1.setBounds(getWidth() - 750, getHeight() - 250, size, size);
+    dial2.setBounds(getWidth() -750, getHeight() - 120, size, size);
+    dial3.setBounds(getWidth() - 130, getHeight() - 250, size, size);
+    dial4.setBounds(getWidth() - 130, getHeight() - 120, size, size);
 }

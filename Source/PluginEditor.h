@@ -34,10 +34,10 @@ private:
     juce::Image backgroundImage;
 
     juce::CustomLNF myCustomLNF;
-    juce::Slider fatness;
-    juce::Slider glitter;
-    juce::Slider medbell;
-    juce::Slider cutoff;
+    juce::Slider dial1;
+    juce::Slider dial2;
+    juce::Slider dial3;
+    juce::Slider dial4;
     TopBar topBar;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (DarkGUIAudioProcessorEditor)
