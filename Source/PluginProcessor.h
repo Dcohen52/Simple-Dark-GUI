@@ -13,12 +13,12 @@
 //==============================================================================
 /**
 */
-class PluginTryout2AudioProcessor  : public juce::AudioProcessor
+class DarkGUIAudioProcessor  : public juce::AudioProcessor
 {
 public:
     //==============================================================================
-    PluginTryout2AudioProcessor();
-    ~PluginTryout2AudioProcessor() override;
+    DarkGUIAudioProcessor();
+    ~DarkGUIAudioProcessor() override;
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -55,5 +55,5 @@ public:
 
 private:
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PluginTryout2AudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (DarkGUIAudioProcessor)
 };

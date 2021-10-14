@@ -11,7 +11,7 @@
 #include <ctime>
 
 //==============================================================================
-PluginTryout2AudioProcessorEditor::PluginTryout2AudioProcessorEditor (PluginTryout2AudioProcessor& p)
+DarkGUIAudioProcessorEditor::DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
     juce::LookAndFeel::setDefaultLookAndFeel(&myCustomLNF);
@@ -47,13 +47,13 @@ PluginTryout2AudioProcessorEditor::PluginTryout2AudioProcessorEditor (PluginTryo
 
 }
 
-PluginTryout2AudioProcessorEditor::~PluginTryout2AudioProcessorEditor()
+DarkGUIAudioProcessorEditor::~DarkGUIAudioProcessorEditor()
 {
     juce::LookAndFeel::setDefaultLookAndFeel(nullptr);
 }
 
 //==============================================================================
-void PluginTryout2AudioProcessorEditor::paint (juce::Graphics& g)
+void DarkGUIAudioProcessorEditor::paint (juce::Graphics& g)
 {
     // g.fillAll (juce::Colour(0xff181818));
     g.drawImage(backgroundImage, getLocalBounds().toFloat());
@@ -68,7 +68,7 @@ void PluginTryout2AudioProcessorEditor::paint (juce::Graphics& g)
     
 }
 
-void PluginTryout2AudioProcessorEditor::resized()
+void DarkGUIAudioProcessorEditor::resized()
 {
     int size = 80;
     topBar.setBounds(getWidth() - 800, getHeight() - 300, getWidth(), 30);

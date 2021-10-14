@@ -10,7 +10,7 @@
 #include "PluginEditor.h"
 
 //==============================================================================
-PluginTryout2AudioProcessor::PluginTryout2AudioProcessor()
+DarkGUIAudioProcessor::DarkGUIAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()
                      #if ! JucePlugin_IsMidiEffect
@@ -24,17 +24,17 @@ PluginTryout2AudioProcessor::PluginTryout2AudioProcessor()
 {
 }
 
-PluginTryout2AudioProcessor::~PluginTryout2AudioProcessor()
+DarkGUIAudioProcessor::~DarkGUIAudioProcessor()
 {
 }
 
 //==============================================================================
-const juce::String PluginTryout2AudioProcessor::getName() const
+const juce::String DarkGUIAudioProcessor::getName() const
 {
     return JucePlugin_Name;
 }
 
-bool PluginTryout2AudioProcessor::acceptsMidi() const
+bool DarkGUIAudioProcessor::acceptsMidi() const
 {
    #if JucePlugin_WantsMidiInput
     return true;
@@ -43,7 +43,7 @@ bool PluginTryout2AudioProcessor::acceptsMidi() const
    #endif
 }
 
-bool PluginTryout2AudioProcessor::producesMidi() const
+bool DarkGUIAudioProcessor::producesMidi() const
 {
    #if JucePlugin_ProducesMidiOutput
     return true;
@@ -52,7 +52,7 @@ bool PluginTryout2AudioProcessor::producesMidi() const
    #endif
 }
 
-bool PluginTryout2AudioProcessor::isMidiEffect() const
+bool DarkGUIAudioProcessor::isMidiEffect() const
 {
    #if JucePlugin_IsMidiEffect
     return true;
@@ -61,50 +61,50 @@ bool PluginTryout2AudioProcessor::isMidiEffect() const
    #endif
 }
 
-double PluginTryout2AudioProcessor::getTailLengthSeconds() const
+double DarkGUIAudioProcessor::getTailLengthSeconds() const
 {
     return 0.0;
 }
 
-int PluginTryout2AudioProcessor::getNumPrograms()
+int DarkGUIAudioProcessor::getNumPrograms()
 {
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
                 // so this should be at least 1, even if you're not really implementing programs.
 }
 
-int PluginTryout2AudioProcessor::getCurrentProgram()
+int DarkGUIAudioProcessor::getCurrentProgram()
 {
     return 0;
 }
 
-void PluginTryout2AudioProcessor::setCurrentProgram (int index)
+void DarkGUIAudioProcessor::setCurrentProgram (int index)
 {
 }
 
-const juce::String PluginTryout2AudioProcessor::getProgramName (int index)
+const juce::String DarkGUIAudioProcessor::getProgramName (int index)
 {
     return {};
 }
 
-void PluginTryout2AudioProcessor::changeProgramName (int index, const juce::String& newName)
+void DarkGUIAudioProcessor::changeProgramName (int index, const juce::String& newName)
 {
 }
 
 //==============================================================================
-void PluginTryout2AudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
+void DarkGUIAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
 }
 
-void PluginTryout2AudioProcessor::releaseResources()
+void DarkGUIAudioProcessor::releaseResources()
 {
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
 }
 
 #ifndef JucePlugin_PreferredChannelConfigurations
-bool PluginTryout2AudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
+bool DarkGUIAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
 {
   #if JucePlugin_IsMidiEffect
     juce::ignoreUnused (layouts);
@@ -129,7 +129,7 @@ bool PluginTryout2AudioProcessor::isBusesLayoutSupported (const BusesLayout& lay
 }
 #endif
 
-void PluginTryout2AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
+void DarkGUIAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
@@ -159,25 +159,25 @@ void PluginTryout2AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer
 }
 
 //==============================================================================
-bool PluginTryout2AudioProcessor::hasEditor() const
+bool DarkGUIAudioProcessor::hasEditor() const
 {
     return true; // (change this to false if you choose to not supply an editor)
 }
 
-juce::AudioProcessorEditor* PluginTryout2AudioProcessor::createEditor()
+juce::AudioProcessorEditor* DarkGUIAudioProcessor::createEditor()
 {
-    return new PluginTryout2AudioProcessorEditor (*this);
+    return new DarkGUIAudioProcessorEditor (*this);
 }
 
 //==============================================================================
-void PluginTryout2AudioProcessor::getStateInformation (juce::MemoryBlock& destData)
+void DarkGUIAudioProcessor::getStateInformation (juce::MemoryBlock& destData)
 {
     // You should use this method to store your parameters in the memory block.
     // You could do that either as raw data, or use the XML or ValueTree classes
     // as intermediaries to make it easy to save and load complex data.
 }
 
-void PluginTryout2AudioProcessor::setStateInformation (const void* data, int sizeInBytes)
+void DarkGUIAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
 {
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
@@ -187,5 +187,5 @@ void PluginTryout2AudioProcessor::setStateInformation (const void* data, int siz
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
-    return new PluginTryout2AudioProcessor();
+    return new DarkGUIAudioProcessor();
 }

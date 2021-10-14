@@ -16,11 +16,11 @@
 //==============================================================================
 /**
 */
-class PluginTryout2AudioProcessorEditor  : public juce::AudioProcessorEditor
+class DarkGUIAudioProcessorEditor  : public juce::AudioProcessorEditor
 {
 public:
-    PluginTryout2AudioProcessorEditor (PluginTryout2AudioProcessor&);
-    ~PluginTryout2AudioProcessorEditor() override;
+    DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor&);
+    ~DarkGUIAudioProcessorEditor() override;
 
     //==============================================================================
     void paint (juce::Graphics&) override;
@@ -29,7 +29,7 @@ public:
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    PluginTryout2AudioProcessor& audioProcessor;
+    DarkGUIAudioProcessor& audioProcessor;
 
     juce::Image backgroundImage;
 
@@ -40,5 +40,5 @@ private:
     juce::Slider cutoff;
     TopBar topBar;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PluginTryout2AudioProcessorEditor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (DarkGUIAudioProcessorEditor)
 };
