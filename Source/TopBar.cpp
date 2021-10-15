@@ -25,35 +25,25 @@ TopBar::~TopBar()
 
 void TopBar::paint (juce::Graphics& g)
 {
-    /* This demo code just fills the component's background and
-       draws some placeholder text to get you started.
+    // Background
+    g.fillAll (juce::Colours::transparentBlack);
 
-       You should replace everything in this method with your own
-       drawing code..
-    */
-
-    g.fillAll (juce::Colours::transparentBlack);   // clear the background
-
-    g.setColour (juce::Colours::transparentBlack);
-    // g.drawRect (getLocalBounds(), 1);   // draw an outline around the component
-
-    g.setColour(juce::Colours::black);
-    
-    // g.fillRoundedRectangle(getLocalBounds().toFloat(), 15.0f);
-
+    // Presets section
+    g.setColour(juce::Colour(0xff000000));
     auto cornerSize = 15.0f;
     auto bounds = getLocalBounds().toFloat().reduced(0.5f, 0.5f);
 
+    g.setOpacity(0.1f);
     juce::Path path;
-    path.addRoundedRectangle(300.f, bounds.getY(),
-        bounds.getWidth() / 4, bounds.getHeight(),
+    path.addRoundedRectangle(bounds.getX() / 3.5, bounds.getY() / 2,
+        bounds.getWidth() / 3.5, bounds.getHeight(),
         cornerSize, cornerSize);
 
     g.fillPath(path);
-    g.setColour (juce::Colours::white);
+    g.setColour (juce::Colour(0xffffffff));
     g.setFont (14.0f);
     g.drawText ("Default", getLocalBounds(),
-                juce::Justification::centred, true);   // draw some placeholder text
+                juce::Justification::centred, true);
 
 }
 

@@ -55,25 +55,41 @@ DarkGUIAudioProcessorEditor::~DarkGUIAudioProcessorEditor()
 //==============================================================================
 void DarkGUIAudioProcessorEditor::paint (juce::Graphics& g)
 {
-    // g.fillAll (juce::Colour(0xff181818));
+    // Background photo
     g.drawImage(backgroundImage, getLocalBounds().toFloat());
 
+    // Date-Time
     time_t now = time(0);
     char* dt = ctime(&now);
 
+    // Logo
     g.setColour(juce::Colour(0xff444444));
     g.setFont(12);
-    g.drawText("Build 131021-01", getLocalBounds(),
+    g.drawText(dt, getLocalBounds(),
         juce::Justification::centredBottom, true);
+
+    g.setColour(juce::Colour(0xffffffff));
+    g.fillEllipse(15.0f, 7.0f, 22.0f, 22.0f);
+    g.setColour(juce::Colour(0xffffc800));
+    g.fillEllipse(10.0f, 21.0f, 10.0f, 10.0f);
+
+    g.setColour(juce::Colour(0xff171717));
+    g.drawEllipse(10.0f, 21.0f, 10.0f, 10.0f, 2.0f);
+
     
 }
 
 void DarkGUIAudioProcessorEditor::resized()
 {
     int size = 80;
-    topBar.setBounds(getWidth() - 800, getHeight() - 300, getWidth(), 30);
-    dial1.setBounds(getWidth() - 750, getHeight() - 250, size, size);
-    dial2.setBounds(getWidth() -750, getHeight() - 120, size, size);
-    dial3.setBounds(getWidth() - 130, getHeight() - 250, size, size);
-    dial4.setBounds(getWidth() - 130, getHeight() - 120, size, size);
+    int leftMargin = 750;
+    int rightMargin = 130;
+    int topDial = 250;
+    int bottomDial = 120;
+
+    topBar.setBounds(getWidth() - 800, getHeight() - 290, getWidth(), 30);
+    dial1.setBounds(getWidth() - leftMargin, getHeight() - topDial, size, size);
+    dial2.setBounds(getWidth() - leftMargin, getHeight() - bottomDial, size, size);
+    dial3.setBounds(getWidth() - rightMargin, getHeight() - topDial, size, size);
+    dial4.setBounds(getWidth() - rightMargin, getHeight() - bottomDial, size, size);
 }
