@@ -6,6 +6,7 @@
   <MAINGROUP id="HsX2UH" name="DarkGUI">
     <GROUP id="{76041D96-D1E3-1213-F816-E7D6D2260224}" name="Assets">
       <FILE id="BWK2JV" name="background.png" compile="0" resource="1" file="C:/Users/Dekel's Studio/Downloads/background.png"/>
+      <FILE id="mEqxfT" name="nextpreset.png" compile="0" resource="1" file="C:/Users/Dekel's Studio/Downloads/nextpreset.png"/>
     </GROUP>
     <GROUP id="{0FB70AA6-756A-DD4D-350F-363DD675DD8F}" name="Source">
       <FILE id="HVUWGf" name="PluginProcessor.cpp" compile="1" resource="0"

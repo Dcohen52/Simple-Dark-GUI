@@ -16,7 +16,11 @@ TopBar::TopBar()
 {
     // In your constructor, you should add any child components, and
     // initialise any special settings that your component needs.
-
+    juce::Image normalButton = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    juce::Image hoverButton = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    juce::Image downButton = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    leftPreset.setImages(false, false, true, normalButton, 1.0f, {}, hoverButton, 1.0f, {}, downButton, 1.0f, {});
+    leftPreset.setClickingTogglesState(true);
 }
 
 TopBar::~TopBar()
@@ -29,13 +33,13 @@ void TopBar::paint (juce::Graphics& g)
     g.fillAll (juce::Colours::transparentBlack);
 
     // Presets section
-    g.setColour(juce::Colour(0xff000000));
+    g.setColour(juce::Colour(0xffffffff));
     auto cornerSize = 15.0f;
     auto bounds = getLocalBounds().toFloat().reduced(0.5f, 0.5f);
 
-    g.setOpacity(0.1f);
+    g.setOpacity(0.05f);
     juce::Path path;
-    path.addRoundedRectangle(bounds.getX() / 3.5, bounds.getY() / 2,
+    path.addRoundedRectangle(283.0f, bounds.getY() / 2,
         bounds.getWidth() / 3.5, bounds.getHeight(),
         cornerSize, cornerSize);
 
@@ -49,7 +53,5 @@ void TopBar::paint (juce::Graphics& g)
 
 void TopBar::resized()
 {
-    // This method is where you should set the bounds of any child
-    // components that your component contains..
-
+    leftPreset.setBounds(400, getHeight(), 50, 50);
 }
