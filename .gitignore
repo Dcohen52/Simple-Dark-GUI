@@ -1,0 +1,159 @@
+
+*.db-shm
+Builds/VisualStudio2019/.vs/DarkGUI/v16/.suo
+Builds/VisualStudio2019/.vs/DarkGUI/v16/Browse.VC.db
+Builds/VisualStudio2019/.vs/DarkGUI/v16/Browse.VC.db-wal
+Builds/VisualStudio2019/.vs/DarkGUI/v16/Browse.VC.opendb
+Builds/VisualStudio2019/.vs/DarkGUI/v16/ipch/AutoPCH/3d301ab3e7c65337/STYLESHEET.ipch
+Builds/VisualStudio2019/.vs/DarkGUI/v16/ipch/AutoPCH/68ecc43abe7d96b/TOPBAR.ipch
+Builds/VisualStudio2019/.vs/DarkGUI/v16/ipch/AutoPCH/7045080bfab1a802/PLUGINPROCESSOR.ipch
+Builds/VisualStudio2019/.vs/DarkGUI/v16/ipch/AutoPCH/821f5595fd4816f5/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/DarkGUI/v16/ipch/AutoPCH/b1ef97a1d0156a65/INCLUDE_JUCE_DSP.ipch
+Builds/VisualStudio2019/.vs/DarkGUI/v16/ipch/AutoPCH/b6395e8bfd877d5d/INCLUDE_JUCE_GRAPHICS.ipch
+Builds/VisualStudio2019/.vs/DarkGUI/v16/Solution.VC.db
+Builds/VisualStudio2019/.vs/DarkGUI/v16/Solution.VC.db-wal
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/.suo
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/Browse.VC.db
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/5290a00fc89c6e14/STYLESHEET.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/882856fb8600fce6/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/9238c3ee95475532/INCLUDE_JUCE_GRAPHICS.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/a8f86b6c2563f8b0/TOPBAR.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/b4c5b044cacfa788/STYLESHEET.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/b4ea38916ed6ddf4/TOPBAR.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/ipch/AutoPCH/c33b95a4b69cc9ba/PLUGINEDITOR.ipch
+Builds/VisualStudio2019/.vs/PluginTryout2/v16/Solution.VC.db
+Builds/VisualStudio2019/DarkGUI.sln
+Builds/VisualStudio2019/DarkGUI_SharedCode.vcxproj
+Builds/VisualStudio2019/DarkGUI_SharedCode.vcxproj.filters
+Builds/VisualStudio2019/DarkGUI_StandalonePlugin.vcxproj
+Builds/VisualStudio2019/DarkGUI_StandalonePlugin.vcxproj.filters
+Builds/VisualStudio2019/DarkGUI_StandalonePlugin.vcxproj.user
+Builds/VisualStudio2019/DarkGUI_VST3.vcxproj
+Builds/VisualStudio2019/DarkGUI_VST3.vcxproj.filters
+Builds/VisualStudio2019/PluginTryout2.sln
+Builds/VisualStudio2019/PluginTryout2_SharedCode.vcxproj
+Builds/VisualStudio2019/PluginTryout2_SharedCode.vcxproj.filters
+Builds/VisualStudio2019/PluginTryout2_StandalonePlugin.vcxproj
+Builds/VisualStudio2019/PluginTryout2_StandalonePlugin.vcxproj.filters
+Builds/VisualStudio2019/PluginTryout2_StandalonePlugin.vcxproj.user
+Builds/VisualStudio2019/PluginTryout2_VST3.vcxproj
+Builds/VisualStudio2019/PluginTryout2_VST3.vcxproj.filters
+Builds/VisualStudio2019/resources.rc
+Builds/VisualStudio2019/x64/Debug/Shared Code/BinaryData.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/DarkGUI_SharedCode.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/Lib-link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/Lib-link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_.7651A9F6.tlog/Lib.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_SharedCode.log
+Builds/VisualStudio2019/x64/Debug/Shared Code/DarkGUI_SharedCode.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_basics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_devices.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_formats.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_plugin_client_utils.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_processors.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_audio_utils.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_core.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_data_structures.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_dsp.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_events.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_graphics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_gui_basics.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/include_juce_gui_extra.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginEditor.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginProcessor.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/Lib-link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/Lib-link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/Lib.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTr.7651A9F6.tlog/PluginTryout2_SharedCode.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTryout2.lib
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTryout2.lib.recipe
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTryout2.pdb
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTryout2_SharedCode.log
+Builds/VisualStudio2019/x64/Debug/Shared Code/PluginTryout2_SharedCode.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Shared Code/StyleSheet.obj
+Builds/VisualStudio2019/x64/Debug/Shared Code/TopBar.obj
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/DarkGUI_StandalonePlugin.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_.49242620.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_StandalonePlugin.log
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/DarkGUI_StandalonePlugin.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/include_juce_audio_plugin_client_Standalone.obj
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/CL.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/CL.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/CL.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/link.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/link.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/link.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/PluginTryout2_StandalonePlugin.lastbuildstate
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/rc.command.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/rc.read.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTr.49242620.tlog/rc.write.1.tlog
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTryout2.exe
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTryout2.exe.recipe
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTryout2.ilk
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTryout2.pdb
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTryout2_StandalonePlugin.log
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/PluginTryout2_StandalonePlugin.vcxproj.FileListAbsolute.txt
+Builds/VisualStudio2019/x64/Debug/Standalone Plugin/resources.res
+JuceLibraryCode/BinaryData.cpp
+JuceLibraryCode/BinaryData.h
+JuceLibraryCode/include_juce_audio_basics.cpp
+JuceLibraryCode/include_juce_audio_basics.mm
+JuceLibraryCode/include_juce_audio_devices.cpp
+JuceLibraryCode/include_juce_audio_devices.mm
+JuceLibraryCode/include_juce_audio_formats.cpp
+JuceLibraryCode/include_juce_audio_formats.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AAX.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_AAX.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU.r
+JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm
+JuceLibraryCode/include_juce_audio_plugin_client_AUv3.mm
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS.r
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_1.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_2.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_3.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_4.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.mm
+JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_Unity.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp
+JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
+JuceLibraryCode/include_juce_audio_processors.cpp
+JuceLibraryCode/include_juce_audio_processors.mm
+JuceLibraryCode/include_juce_audio_utils.cpp
+JuceLibraryCode/include_juce_audio_utils.mm
+JuceLibraryCode/include_juce_core.cpp
+JuceLibraryCode/include_juce_core.mm
+JuceLibraryCode/include_juce_data_structures.cpp
+JuceLibraryCode/include_juce_data_structures.mm
+JuceLibraryCode/include_juce_dsp.cpp
+JuceLibraryCode/include_juce_dsp.mm
+JuceLibraryCode/include_juce_events.cpp
+JuceLibraryCode/include_juce_events.mm
+JuceLibraryCode/include_juce_graphics.cpp
+JuceLibraryCode/include_juce_graphics.mm
+JuceLibraryCode/include_juce_gui_basics.cpp
+JuceLibraryCode/include_juce_gui_basics.mm
+JuceLibraryCode/include_juce_gui_extra.cpp
+JuceLibraryCode/include_juce_gui_extra.mm
+JuceLibraryCode/JuceHeader.h
+JuceLibraryCode/JucePluginDefines.h
+JuceLibraryCode/ReadMe.txt
+PluginTryout2.jucer
