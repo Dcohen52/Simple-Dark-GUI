@@ -14,13 +14,6 @@
 //==============================================================================
 TopBar::TopBar()
 {
-    // In your constructor, you should add any child components, and
-    // initialise any special settings that your component needs.
-    juce::Image normalButton = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
-    juce::Image hoverButton = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
-    juce::Image downButton = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
-    leftPreset.setImages(false, false, true, normalButton, 1.0f, {}, hoverButton, 1.0f, {}, downButton, 1.0f, {});
-    leftPreset.setClickingTogglesState(true);
 }
 
 TopBar::~TopBar()
@@ -53,5 +46,5 @@ void TopBar::paint (juce::Graphics& g)
 
 void TopBar::resized()
 {
-    leftPreset.setBounds(400, getHeight(), 50, 50);
+    
 }

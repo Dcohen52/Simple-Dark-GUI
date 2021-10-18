@@ -1,4 +1,4 @@
-/*
+﻿/*
   ==============================================================================
 
     This file contains the basic framework code for a JUCE plugin editor.
@@ -38,6 +38,8 @@ private:
     juce::Slider dial3;
     juce::Slider dial4;
     TopBar topBar;
+    // juce::TextButton moreButton{ "≡" };
+    juce::ImageButton moreButton;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (DarkGUIAudioProcessorEditor)
 };

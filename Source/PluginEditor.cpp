@@ -44,7 +44,11 @@ DarkGUIAudioProcessorEditor::DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor&
     addAndMakeVisible(topBar);
     setSize (800, 300);
 
-
+    juce::Image normalButton = juce::ImageCache::getFromMemory(BinaryData::more_png, BinaryData::more_pngSize);
+    juce::Image overButton = juce::ImageCache::getFromMemory(BinaryData::more_png, BinaryData::more_pngSize);
+    juce::Image downButton = juce::ImageCache::getFromMemory(BinaryData::more_png, BinaryData::more_pngSize);
+    moreButton.setImages(false, false, true, normalButton, 1.0f, {}, overButton, 1.0f, {}, downButton, 1.0f, {});
+    addAndMakeVisible(moreButton);
 }
 
 DarkGUIAudioProcessorEditor::~DarkGUIAudioProcessorEditor()
@@ -92,4 +96,5 @@ void DarkGUIAudioProcessorEditor::resized()
     dial2.setBounds(getWidth() - leftMargin, getHeight() - bottomDial, size, size);
     dial3.setBounds(getWidth() - rightMargin, getHeight() - topDial, size, size);
     dial4.setBounds(getWidth() - rightMargin, getHeight() - bottomDial, size, size);
+    moreButton.setBounds(getWidth() - 45, getHeight() - 295, 32, 32);
 }
