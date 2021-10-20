@@ -14,6 +14,17 @@
 //==============================================================================
 TopBar::TopBar()
 {
+    juce::Image normalButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    juce::Image overButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    juce::Image downButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    nextPreset.setImages(false, false, true, normalButton1, 1.0f, {}, overButton1, 1.0f, {}, downButton1, 1.0f, {});
+    addAndMakeVisible(nextPreset);
+
+    juce::Image normalButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_png, BinaryData::backpreset_pngSize);
+    juce::Image overButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_png, BinaryData::backpreset_pngSize);
+    juce::Image downButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_png, BinaryData::backpreset_pngSize);
+    backPreset.setImages(false, false, true, normalButton2, 1.0f, {}, overButton2, 1.0f, {}, downButton2, 1.0f, {});
+    addAndMakeVisible(backPreset);
 }
 
 TopBar::~TopBar()
@@ -46,5 +57,6 @@ void TopBar::paint (juce::Graphics& g)
 
 void TopBar::resized()
 {
-    
+    nextPreset.setBounds(getWidth() - 309, getHeight() / 2 - 6, 11, 11);
+    backPreset.setBounds(getWidth() / 2 - 110, getHeight() / 2 - 6, 11, 11);
 }

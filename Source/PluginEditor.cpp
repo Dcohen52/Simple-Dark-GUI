@@ -17,29 +17,36 @@ DarkGUIAudioProcessorEditor::DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor&
     juce::LookAndFeel::setDefaultLookAndFeel(&myCustomLNF);
 
     backgroundImage = juce::ImageCache::getFromMemory(BinaryData::background_png, BinaryData::background_pngSize);
-
+    
+    dial1.setComponentID("DIAL1");
+    dial1.setTitle("Dial 1");
     dial1.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     dial1.setRange(0.0f, 100.0f);
     dial1.setValue(10.0f);
-    dial1.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
+    dial1.setTextBoxStyle(juce::Slider::TextEntryBoxPosition::NoTextBox, 0, 0, 0);
     addAndMakeVisible(dial1);
 
+    dial2.setComponentID("DIAL2");
     dial2.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     dial2.setRange(0.0f, 100.0f);
     dial2.setValue(25.0f);
     dial2.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
     addAndMakeVisible(dial2);
 
+    dial3.setComponentID("DIAL3");
     dial3.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     dial3.setRange(0.0f, 100.0f);
     dial3.setValue(50.0f);
     dial3.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
     addAndMakeVisible(dial3);
 
+    dial4.setComponentID("DIAL4");
+    dial4.setTitle("Dial 4");
     dial4.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     dial4.setRange(0.0f, 100.0f);
     dial4.setValue(80.0f);
     dial4.setTextBoxStyle(juce::Slider::NoTextBox, true, 100, 25);
+
     addAndMakeVisible(dial4);
     addAndMakeVisible(topBar);
     setSize (800, 300);

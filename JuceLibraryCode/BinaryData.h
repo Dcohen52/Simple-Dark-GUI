@@ -8,14 +8,23 @@
 
 namespace BinaryData
 {
+    extern const char*   nextpreset_png;
+    const int            nextpreset_pngSize = 162;
+
+    extern const char*   backpreset_png;
+    const int            backpreset_pngSize = 181;
+
     extern const char*   background_png;
     const int            background_pngSize = 37713;
 
     extern const char*   more_png;
     const int            more_pngSize = 309;
 
+    extern const char*   Aaux_ProRegular_Regular_ttf;
+    const int            Aaux_ProRegular_Regular_ttfSize = 42144;
+
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 2;
+    const int namedResourceListSize = 5;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

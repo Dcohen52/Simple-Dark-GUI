@@ -17,9 +17,9 @@ namespace juce
     {
         auto outline = Colour(0xfffafafa);
         auto fill = Colour(0xffFAC800);
-
+        auto centreX = x + width * 0.4975f;
+        auto centreY = y + height * 0.44f;
         auto bounds = Rectangle<int>(x, y, width, height).toFloat().reduced(10);
-
         auto radius = jmin(bounds.getWidth(), bounds.getHeight()) / 1.9f;
         auto toAngle = rotaryStartAngle + sliderPos * (rotaryEndAngle - rotaryStartAngle);
         auto lineW = jmin(5.0f, radius * 0.5f);
