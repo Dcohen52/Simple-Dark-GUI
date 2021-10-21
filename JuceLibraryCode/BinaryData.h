@@ -8,6 +8,9 @@
 
 namespace BinaryData
 {
+    extern const char*   background_wlabels_png;
+    const int            background_wlabels_pngSize = 39998;
+
     extern const char*   more_small_png;
     const int            more_small_pngSize = 1763;
 
@@ -33,7 +36,7 @@ namespace BinaryData
     const int            Aaux_ProRegular_Regular_ttfSize = 42144;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 8;
+    const int namedResourceListSize = 9;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

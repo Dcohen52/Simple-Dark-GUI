@@ -16,7 +16,7 @@ DarkGUIAudioProcessorEditor::DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor&
 {
     juce::LookAndFeel::setDefaultLookAndFeel(&myCustomLNF);
 
-    backgroundImage = juce::ImageCache::getFromMemory(BinaryData::background_png, BinaryData::background_pngSize);
+    backgroundImage = juce::ImageCache::getFromMemory(BinaryData::background_wlabels_png, BinaryData::background_wlabels_pngSize);
     
     dial1.setComponentID("DIAL1");
     dial1.setTitle("Dial 1");
