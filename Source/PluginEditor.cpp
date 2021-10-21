@@ -51,9 +51,9 @@ DarkGUIAudioProcessorEditor::DarkGUIAudioProcessorEditor (DarkGUIAudioProcessor&
     addAndMakeVisible(topBar);
     setSize (800, 300);
 
-    juce::Image normalButton = juce::ImageCache::getFromMemory(BinaryData::more_png, BinaryData::more_pngSize);
-    juce::Image overButton = juce::ImageCache::getFromMemory(BinaryData::more_png, BinaryData::more_pngSize);
-    juce::Image downButton = juce::ImageCache::getFromMemory(BinaryData::more_png, BinaryData::more_pngSize);
+    juce::Image normalButton = juce::ImageCache::getFromMemory(BinaryData::more_small_png, BinaryData::more_small_pngSize);
+    juce::Image overButton = juce::ImageCache::getFromMemory(BinaryData::more_small_png, BinaryData::more_small_pngSize);
+    juce::Image downButton = juce::ImageCache::getFromMemory(BinaryData::more_small_png, BinaryData::more_small_pngSize);
     moreButton.setImages(false, false, true, normalButton, 1.0f, {}, overButton, 1.0f, {}, downButton, 1.0f, {});
     addAndMakeVisible(moreButton);
 }

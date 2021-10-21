@@ -8,6 +8,15 @@
 
 namespace BinaryData
 {
+    extern const char*   more_small_png;
+    const int            more_small_pngSize = 1763;
+
+    extern const char*   backpreset_std_png;
+    const int            backpreset_std_pngSize = 221;
+
+    extern const char*   nextpreset_std_png;
+    const int            nextpreset_std_pngSize = 207;
+
     extern const char*   nextpreset_png;
     const int            nextpreset_pngSize = 162;
 
@@ -24,7 +33,7 @@ namespace BinaryData
     const int            Aaux_ProRegular_Regular_ttfSize = 42144;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 5;
+    const int namedResourceListSize = 8;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

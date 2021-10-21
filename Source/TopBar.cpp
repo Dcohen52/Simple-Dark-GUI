@@ -14,13 +14,15 @@
 //==============================================================================
 TopBar::TopBar()
 {
-    juce::Image normalButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
+    // Next preset button
+    juce::Image normalButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_std_png, BinaryData::nextpreset_std_pngSize);
     juce::Image overButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
     juce::Image downButton1 = juce::ImageCache::getFromMemory(BinaryData::nextpreset_png, BinaryData::nextpreset_pngSize);
     nextPreset.setImages(false, false, true, normalButton1, 1.0f, {}, overButton1, 1.0f, {}, downButton1, 1.0f, {});
     addAndMakeVisible(nextPreset);
 
-    juce::Image normalButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_png, BinaryData::backpreset_pngSize);
+    // Back preset button
+    juce::Image normalButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_std_png, BinaryData::backpreset_std_pngSize);
     juce::Image overButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_png, BinaryData::backpreset_pngSize);
     juce::Image downButton2 = juce::ImageCache::getFromMemory(BinaryData::backpreset_png, BinaryData::backpreset_pngSize);
     backPreset.setImages(false, false, true, normalButton2, 1.0f, {}, overButton2, 1.0f, {}, downButton2, 1.0f, {});

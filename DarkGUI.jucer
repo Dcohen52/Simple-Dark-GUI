@@ -5,6 +5,11 @@
               companyName="Dekel Cohen" companyCopyright="Dekel Cohen" companyWebsite="https://www.dekelcohenart.com/">
   <MAINGROUP id="HsX2UH" name="DarkGUI">
     <GROUP id="{76041D96-D1E3-1213-F816-E7D6D2260224}" name="Assets">
+      <FILE id="iqtOAL" name="more_small.png" compile="0" resource="1" file="../icons/more_small.png"/>
+      <FILE id="ZU6DdQ" name="backpreset_std.png" compile="0" resource="1"
+            file="../icons/backpreset_std.png"/>
+      <FILE id="oFWeuC" name="nextpreset_std.png" compile="0" resource="1"
+            file="../icons/nextpreset_std.png"/>
       <FILE id="FnHoFl" name="nextpreset.png" compile="0" resource="1" file="../icons/nextpreset.png"/>
       <FILE id="DlN0kW" name="backpreset.png" compile="0" resource="1" file="../icons/backpreset.png"/>
       <FILE id="BWK2JV" name="background.png" compile="0" resource="1" file="C:/Users/Dekel's Studio/Downloads/background.png"/>
